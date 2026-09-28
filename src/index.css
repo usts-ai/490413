@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-forest: #0B3D2E;
+  --color-green: #228B22;
+  --color-turquoise: #40E0D0;
+  --color-sky: #00BFFF;
+  --color-sand: #DEB887;
+  --color-orange: #FFA500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FAFBFA;
+  color: #0B3D2E;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: 'Outfit', sans-serif;
+  z-index: 0;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+}
